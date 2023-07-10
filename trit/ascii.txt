@@ -9,4 +9,5 @@
 AUTHOR  : https://github.com/afdipratama/
 TOOLS   : Thread Auto Like + Bonus Followers
 NOTE    : Masukan Username & Password di line 38
+WEB VERSION by Fikri : https://kitaa.digital/threads/sccku.zip
 
