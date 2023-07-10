@@ -6,6 +6,7 @@
 ░░░██║░░░██║░░██║██║░░██║███████╗██║░░██║██████╔╝██████╔╝
 ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═════╝░╚═════╝░
 
-AUTHOR  : AFDI & MEMBER SGB LAINNYA EAK
+AUTHOR  : https://github.com/afdipratama/
 TOOLS   : Thread Auto Like + Bonus Followers
-NOTE    : Jangan Lupa Masukan PHP kedalam env windows
+NOTE    : Masukan Username & Password di line 38
+
