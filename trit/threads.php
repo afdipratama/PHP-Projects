@@ -73,7 +73,7 @@ function likeTimeline($token, $uuid)
     $headers[] = 'Host: i.instagram.com';
 
     $likeCount = 0; 
-    $maxLikeCount = 50; 
+    $maxLikeCount = 100; 
 
     while ($likeCount < $maxLikeCount) {
         $getFeeds = request('https://i.instagram.com/api/v1/feed/text_post_app_timeline/', 'feed_view_info=[]&max_id=&pagination_source=text_post_feed_threads&is_pull_to_refresh=0&_uuid=' . $uuid . '&bloks_versioning_id=5f56efad68e1edec7801f630b5c122704ec5378adbee6609a448f105f34a9c73', $headers, '');
@@ -99,7 +99,7 @@ function likeTimeline($token, $uuid)
                 if ($parseGaslike['status'] == "ok") {
                     echo "STATUS : Berhasil Like Postingan" . PHP_EOL;
                     $likeCount++;
-                    sleep(14); // ATUR DELAY LIKE DI SINI ( 14 DETIK )
+                    sleep(7); // ATUR DELAY LIKE DI SINI ( 14 DETIK )
                 } else if ($parseGaslike['status'] == "fail") {
                     echo "Gagal Melakukan Like" . PHP_EOL;
                 }
