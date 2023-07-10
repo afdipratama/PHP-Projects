@@ -99,7 +99,7 @@ function likeTimeline($token, $uuid)
                 if ($parseGaslike['status'] == "ok") {
                     echo "STATUS : Berhasil Like Postingan" . PHP_EOL;
                     $likeCount++;
-                    sleep(14); // ATUR DELAY LIKE DI SINI ( 14 DETIK )
+                    sleep(7); // ATUR DELAY LIKE DI SINI ( 14 DETIK )
                 } else if ($parseGaslike['status'] == "fail") {
                     echo "Gagal Melakukan Like" . PHP_EOL;
                 }
