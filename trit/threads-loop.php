@@ -118,7 +118,7 @@ $uuid = sprintf(
 );
 
 $akunIG = [
-    ['username' => 'uncrownedw', 'password' => 'zahranabila5']
+    ['username' => 'MASUKAN USERNAME DISINI', 'password' => 'MASUKAN PASSWORD DISINI']
 ];
 
 $headers = array();
